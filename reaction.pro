@@ -13,8 +13,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    scape.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    scape.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    scape.ui

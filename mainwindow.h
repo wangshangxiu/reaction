@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-
+#include "scape.h"
 namespace Ui {
 class MainWindow;
 }
@@ -17,6 +17,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    scape *sp;
 };
 
 #endif // MAINWINDOW_H
